@@ -1,0 +1,156 @@
+QMainWindow{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(9, 13, 28, 255), stop:0.365385 rgba(22, 25, 37, 255), stop:0.653846 rgba(22, 25, 37, 255), stop:1 rgba(9, 13, 28, 255));
+}
+QTabWidget{
+	color: rgb(171, 171, 171);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(9, 13, 28, 255), stop:0.365385 rgba(22, 25, 37, 255), stop:0.653846 rgba(22, 25, 37, 255), stop:1 rgba(9, 13, 28, 255));
+}
+/*-------------------------------------------------------------*/
+QPushButton {
+	background-color: rgb(24, 27, 39);
+	color: rgb(140, 140, 140);
+}
+QPushButton:hover {
+	border:  1px solid rgb(140, 140, 140);
+	border:  1px solid  rgb(75, 78, 96);
+}
+QPushButton:pressed {
+	background-color: rgb(10, 14, 29);
+	border:  2px solid  rgb(75, 78, 96);
+}
+/*-------------------------------------------------------------*/
+QLCDNumber{
+	border:  0px solid  rgb(0, 0, 0);
+}
+/*-------------------------------------------------------------*/
+QToolButton {
+	background-color: rgb(24, 27, 39);
+	color: rgb(140, 140, 140);
+}
+QToolButton:hover {
+	border:  1px solid rgb(140, 140, 140);
+	border:  1px solid  rgb(75, 78, 96);
+}
+QToolButton:pressed {
+	background-color: rgb(10, 14, 29);
+}
+
+/*-------------------------------------------------------------*/
+QLineEdit, QSpinBox, QTextEdit{
+	background-color: rgb(24, 27, 40);
+	color: rgb(140, 140, 140);
+}
+QLineEdit, QSpinBox, QTextEdit, QPushButton {
+	border:  1px solid rgb(38, 41, 53);
+}
+/*-------------------------------------------------------------*/
+QTabWidget::pane { 
+	border:  0px solid rgb(38, 41, 53);	
+}
+QTabWidget::tab-bar {
+	border-bottom: 3px solid  rgb(38, 41, 53);	
+	background-color: rgb(16, 18, 26);
+}
+QTabBar::tab {
+    min-width: 10ex;
+    padding: 3px;
+	color: rgb(69, 70, 78);
+    border-bottom: 3px solid qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(255, 255, 255, 0));
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0));
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover {
+	color: rgb(69, 70, 78);
+    border-bottom: 3px solid  rgb(69, 70, 78);
+}
+QTabBar::tab:selected {
+	color: rgb(140, 140, 140);
+    border-bottom: 3px solid  rgb(140, 140, 140);
+}
+/*-------------------------------------------------------------*/
+QProgressBar{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 0, 0, 0));
+	text-align: center;
+	border-bottom: 3px solid  rgb(38, 41, 53);
+	color: rgb(140, 140, 140);
+}
+QProgressBar::chunk {
+	background-color: qlineargradient(spread:pad, x1:0.01, y1:1, x2:0, y2:0, stop:0 rgba(37, 40, 52, 255), stop:1 rgba(255, 255, 255, 0));
+   width: 5px;
+    margin: 0.5px;	
+}
+/*-------------------------------------------------------------*/
+QGroupBox{
+	color: rgb(140, 140, 140);
+	border-bottom: 1px solid  rgb(38, 41, 53);
+}
+/*-------------------------------------------------------------*/
+QLabel{
+	color: rgb(140, 140, 140);
+}
+QMenubar{
+	background-color: rgb(255, 255, 255);
+	color: rgb(171, 171, 171);
+}
+/*-------------------------------------------------------------*/
+/* vertical  */
+QScrollBar:vertical {
+	background-color: rgb(20, 23, 36);
+ 	width: 15px;
+    margin: 18px 0 18px 0;
+}
+QScrollBar::handle:vertical {
+	background-color: rgb(29, 31, 43);
+    min-height: 20px;
+}
+QScrollBar::add-line:vertical {
+	background-color: rgb(29, 31, 43);
+    height: 15px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:vertical {
+	background-color: rgb(29, 31, 43);
+    height: 15px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+    width: 3px;
+    height: 3px;
+	background-color: rgb(20, 23, 36);
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+/* horizontal  */
+QScrollBar:horizontal {
+	background-color: rgb(20, 23, 36);
+    height: 15px;
+    margin: 0px 18px 0 18px;
+}        
+QScrollBar::handle:horizontal {
+	background-color: rgb(29, 31, 43);
+    min-width: 15px;
+}        
+QScrollBar::add-line:horizontal {
+	background-color: rgb(29, 31, 43);
+    width: 15px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+QScrollBar::sub-line:horizontal {
+	background-color: rgb(29, 31, 43);
+    width: 15px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}
+QScrollBar:left-arrow:horizontal, QScrollBar::right-arrow:horizontal {
+    width: 3px;
+    height: 3px;
+	background-color: rgb(20, 23, 36);
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+/*-------------------------------------------------------------*/

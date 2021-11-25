@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="imgs">
+    <file>imgs/icon.png</file>
+    <file>imgs/broom-96.png</file>
+    <file>imgs/copy-96.png</file>
+    <file>imgs/github-96.png</file>
+    <file>imgs/home-96.png</file>
+    <file>imgs/left-and-right-arrows-96.png</file>
+    <file>imgs/open-document-96.png</file>
+    <file>imgs/paste-as-text-96.png</file>
+    <file>imgs/quick-mode-on-96.png</file>
+    <file>imgs/reboot-96.png</file>
+    <file>imgs/right-96.png</file>
+    <file>imgs/save-96.png</file>
+    <file>imgs/telegram-app-96.png</file>
+    <file>imgs/transition-both-directions-96.png</file>
+    <file>imgs/zoom-in-96.png</file>
+    <file>imgs/zoom-out-96.png</file>
+  </qresource>
+</RCC>
