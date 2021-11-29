@@ -506,8 +506,8 @@ class Ui_MainWindow(QMainWindow):
         self.format_file = '.'+'pwc'
         self.default_seed = ''
         
-        with open(Ui_MainWindow.BASE_DIR / 'main.qss',"r") as F:  self.StyleSheet_Main= F.read()
-        with open(Ui_MainWindow.BASE_DIR / "CARS.txt", 'r') as F: 
+        with open(Ui_MainWindow.BASE_DIR / 'main.qss',"r", encoding='utf-8') as F:  self.StyleSheet_Main= F.read()
+        with open(Ui_MainWindow.BASE_DIR / "CARS.txt", 'r', encoding='utf-8') as F: 
             self.Production_ContentList = []
             for item in list((F.read()).replace(' ', '').replace('\n', '') + ' ' + '\t' + '\n'):
                 if item not in self.Production_ContentList:
@@ -694,7 +694,7 @@ class Ui_MainWindow(QMainWindow):
     def InjectionFileCodeInput(self):
         Status, FileAddress = self.Open_Er_File()
         if Status:
-            with open(FileAddress, 'r') as F:
+            with open(FileAddress, 'r', encoding='utf-8') as F:
                 self.textEdit_Conversion_Input.setPlainText(F.read())
         
     # [Conversion / Production] btn  Save the code file
@@ -702,7 +702,7 @@ class Ui_MainWindow(QMainWindow):
         Status, FileAddress = self.Save_Er_File()
         if Status:
             if  os_Path.splitext(FileAddress)[1] != self.format_file: FileAddress = os_Path.splitext(FileAddress)[0] + self.format_file
-            with open(FileAddress, 'w') as F:
+            with open(FileAddress, 'w', encoding='utf-8') as F:
                 F.write(self.textEdit_Conversion_Output.toPlainText())
 
 
