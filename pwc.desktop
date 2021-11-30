@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=pwc
+Version=4.0.0
+Type=Application
+Comment="PWC" or the same "Play with characters" Is a graphical program used to encrypt texts.This program only supports texts and with it you can convert your texts to numbers You must use "seed" to create the ciphertexts
+Terminal=false
+Exec=/usr/bin/pwc
+Icon=/usr/bin/pwc-src/ui/icon.png
+Categories=System;Settings;Security;
+Keywords=security;
+StartupNotify=true
+
+
+

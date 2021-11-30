@@ -1,6 +1,6 @@
 # PWC
-Play With Characters (GUI)
 
+Play With Characters (GUI)
 
 <div align="left">
 
@@ -8,12 +8,15 @@ Join [Telegram Channel](https://t.me/Crows_Tower/ "@Crows_Tower")
 
 </div>
 
-
 <div align="center">
 
-<table  style="border-style: none;"><tr>
+
+
+
+<table  style="border-style: none;">
+<tr>
 <td style="width: 140px; text-align: center;">
-<a><img width="128px" src="https://i.ibb.co/mX414Yb/icon.png" alt="P W C"/></a>
+<img width="128px" src="https://i.ibb.co/mX414Yb/icon.png" alt="P W C"/>
 </td>
 <td>
 <strong>Play with characters (GUI)</strong>
@@ -23,9 +26,10 @@ Join [Telegram Channel](https://t.me/Crows_Tower/ "@Crows_Tower")
 </table>
 
 
+
 ![demo](https://i.ibb.co/Bs7TMt7/pwc.png)
 
-![](https://streamable.com/e/6xbbge?autoplay=1)
+![demo](https://img.shields.io/badge/python_versionss-3.8.10-green?style=for-the-badge&logo=appveyor, "3.8.10")
 
 </div>
 
@@ -33,7 +37,6 @@ Join [Telegram Channel](https://t.me/Crows_Tower/ "@Crows_Tower")
 </br>
 
 ### **What does this program do?**
-</br>
 
 "PWC" or the same "Play with characters" Is a graphical program used to encrypt texts.</br>
 This program only supports texts and with it you can convert your texts to numbers</br>
@@ -42,7 +45,6 @@ In this app "seed" is used to translate encrypted texts or to create ciphertexts
 All "seed"s are unique and none is like the other</br>
 
 #### **Example:**
-</br>
 
 If you want to encrypt the text of "Crows Tower"
 
@@ -52,7 +54,6 @@ Our text will be encrypted this way :
 |----|----|----|
 |Hello|0024|435281873408911657911657027845|
 
-
 |H|e|l|l|o|
 |----|----|----|----|----|
 |435281|873408|911657|911657|027845|
@@ -61,50 +62,58 @@ Our text will be encrypted this way :
 
 For example, I put "seed" here as empty and encrypt the word "Crows Tower" like this, and you can get the same encryption by leaving "seed" blank.
 
-
 <div align="center">
-</br>
 
 ![demo, "0024"](https://i.ibb.co/nfVPGnr/PWC-1.png, "0024")
 
-</br>
 </div>
 
-
-</br></br>
-
-
-### Install  : 
-
 ----
 
-Python3 and pip must first be installed on your system 
-[" Download Python3 "](https://www.python.org/downloads/") and [" learn installation "](https://realpython.com/installing-python/)
+## **Install :**  
 
-![demo](https://img.shields.io/badge/python_versionss-3.8.10-green?style=for-the-badge&logo=appveyor, "3.8.10")
-</br></br>
+Python3 and pip must first be installed on your system [" Download Python3 "](https://www.python.org/downloads/") and [" learn installation "](https://realpython.com/installing-python/)
 
-Enter the program folder and enter the following command:
+<br>
+
+### **Windows :**
+[Download V4.0.0 (.exe)](https://github.com/V70024/PWC/releases/download/untagged-1569f67c4685a6bbad9f/PWC_v4-0-0.exe)
+
+<br>
+
+### **Linux :**
+
+<br>
+
+Enter the commands to `install`:
+
+```bash  
+cd ~ ; git clone https://github.com/V70024/PWC.git ; cd PWC
 ```
-python3 -m pip install -r requirements.txt
+
+```bash  
+chmod +x ./install.bash
+```
+
+```bash  
+sudo ./install.bash
+```
+<br>
+
+Enter the commands to `uninstall`:
+
+```bash  
+chmod +x ./uninstall.bash
+```
+
+```bash  
+sudo ./uninstall.bash
 ```
 </br>
-And enter the following command to run the program:
-
-```
-python3 ./main.py
-```
-
-</br></br></br>
 
 ----
 
-
-
-
-## **Warning**: 
-
-
+## **Warning :**  
 
 - If you make changes to the `CARS.txt` file. The `seed` may change
 - This program supports `14750` characters, these characters are contained in the file `CARS.txt`
