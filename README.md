@@ -77,7 +77,7 @@ Python3 and pip must first be installed on your system [" Download Python3 "](ht
 <br>
 
 ### **Windows :**
-[Download V4.0.0 (.exe)](https://github.com/V70024/PWC/releases/download/untagged-1569f67c4685a6bbad9f/PWC_v4-0-0.exe)
+[Download V4.0.0 (.exe)](https://github.com/V70024/PWC/releases/download/4.0.0/PWC_v4-0-0.exe)
 
 <br>
 
